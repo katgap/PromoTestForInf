@@ -1,9 +1,9 @@
-<DOCTYPE !html>
-  <html lang="ru">
+<!DOCTYPE html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Test</title>
-    <link href="css/nomalize.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -13,7 +13,7 @@
           <div class="registration_title">
             <p>Регистрация</p>
             <a href="g_4.edu54.ru">
-              <img width="100" height="50" alt="Гимназия №4"></img>
+              <img src="img/flag.jpg" width="100" height="66" alt="Гимназия №4"/>
             </a>
           </div>
           <div class="registration_fields">
@@ -23,9 +23,9 @@
           </div>
           <div>
             <input name="radio" type="radio" value="1" id="student">
-            <label>Ученик</label>
+            <label for="student">Ученик</label>
             <input name="radio" type="radio" value="2" id="teacher">
-            <label>Учитель</label>
+            <label for="teacher">Учитель</label>
           </div>
           <div class="hidden">
             <input class="login_teacher" name="login-teacher" type="text" id="login-teacher" placeholder="Логин учителя">
@@ -36,7 +36,7 @@
             <button class="button registration_button" name="button-input" type="button">Регистрация</button>
           </div>
         </form>
-      </secion>
+      </section>
     </main>
   </body>
 </html>
