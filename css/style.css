@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+  min-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.input_form,
+.registration_form {
+  width: 460px;
+  padding: 40px;
+  margin: 80px auto;
+
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.input_form p,
+.registration_form p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.input_form input,
+.registration_form input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: block;
+  padding: 10px 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.registration_button {
+  margin-bottom: 0;
+}
+
+.input_title,
+.registration_title {
+  display: flex;
+}
+
+.input_title a,
+.registration_title a {
+  margin-left: auto;
+}
+
+.input_fields,
+.registration_fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_flex,
+.registration_flex {
+  display: flex;
+}
+
+.input_flex .reg {
+  margin-left: auto;
+}
+
+.hidden {
+  display: block;
+}
+
+.hidden .login_teacher {
+  margin-right: 139px;
+}
+
+/*.hidden {
+  display: none;
+}*/
