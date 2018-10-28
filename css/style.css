@@ -11,14 +11,13 @@ body {
 a {
   text-decoration: none;
 }
-
 .input_form,
 .registration_form {
   width: 460px;
   padding: 40px;
   margin: 80px auto;
-
-  border: 2px solid #000;
+  background-color: rgb(230, 230, 250);
+  border: 1px solid black;
   border-radius: 10px;
 }
 
@@ -27,7 +26,7 @@ a {
   margin: 0;
   padding: 0;
   margin-bottom: 40px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 26px;
 }
 
@@ -42,6 +41,12 @@ a {
   padding: 10px 0;
   margin: 0;
   margin-bottom: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.input_button {
+  margin-top: 20px;
 }
 
 .registration_button {
@@ -58,29 +63,26 @@ a {
   margin-left: auto;
 }
 
-.input_fields,
-.registration_fields {
+.input_info,
+.registration_name,
+.input_options,
+.registration_info {
   display: flex;
+}
+
+.input_info,
+.registration_name {
   flex-direction: column;
 }
-
-.input_flex,
-.registration_flex {
-  display: flex;
+.input_info_techer {
+  margin-left: 20px;
 }
 
-.input_flex .reg {
+.input_options_registration,
+.grade_student {
   margin-left: auto;
 }
 
-.hidden {
-  display: block;
+.login_teacher {
+  width: 270px;
 }
-
-.hidden .login_teacher {
-  margin-right: 139px;
-}
-
-/*.hidden {
-  display: none;
-}*/

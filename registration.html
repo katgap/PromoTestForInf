@@ -8,33 +8,40 @@
   </head>
   <body>
     <main>
-      <section class="registration">
+      <section class="registration reistration_teacher">
         <form class="registration_form" action="https://echo.htmlacademy.ru" method="post">
           <div class="registration_title">
             <p>Регистрация</p>
             <a href="g_4.edu54.ru">
-              <img src="img/flag.jpg" width="100" height="66" alt="Гимназия №4"/>
+              <img src="img/flag.jpg" width="83" height="55" alt="Гимназия №4"/>
             </a>
           </div>
-          <div class="registration_fields">
+          <div class="registration_name">
             <input name="surname" type="text" id="surname" placeholder="Фамилия">
             <input name="name" type="text" id="name" placeholder="Имя">
             <input name="patronymic" type="text" id="patronymic" placeholder="Отчество">
           </div>
-          <div>
-            <input name="radio" type="radio" value="1" id="student">
-            <label for="student">Ученик</label>
-            <input name="radio" type="radio" value="2" id="teacher">
-            <label for="teacher">Учитель</label>
+          <button class="button registration_button" name="button-input" type="button">Регистрация</button>
+        </form>
+      </section>
+      <section class="registration reistration_student">
+        <form class="registration_form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="registration_title">
+            <p>Регистрация</p>
+            <a href="g_4.edu54.ru">
+              <img src="img/flag.jpg" width="83" height="55" alt="Гимназия №4"/>
+            </a>
           </div>
-          <div class="hidden">
+          <div class="registration_name">
+            <input name="surname" type="text" id="surname" placeholder="Фамилия">
+            <input name="name" type="text" id="name" placeholder="Имя">
+            <input name="patronymic" type="text" id="patronymic" placeholder="Отчество">
+          </div>
+          <div class="registration_info">
             <input class="login_teacher" name="login-teacher" type="text" id="login-teacher" placeholder="Логин учителя">
-            <label>Класс</label>
-            <input name="amount" type="number" min="1" max="11" id="amount">
+            <input class="grade_student" name="amount" type="number" min="1" max="11" id="amount" placeholder="Класс">
           </div>
-          <div class="registration_fields">
-            <button class="button registration_button" name="button-input" type="button">Регистрация</button>
-          </div>
+          <button class="button registration_button" name="button-input" type="button">Регистрация</button>
         </form>
       </section>
     </main>

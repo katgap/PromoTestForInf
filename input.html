@@ -13,16 +13,22 @@
           <div class="input_title">
             <p>Авторизация</p>
             <a href="g_4.edu54.ru">
-              <img src="img/flag.jpg" width="100" height="66" alt="Гимназия №4"/>
+              <img src="img/flag.jpg" width="83" height="55" alt="Гимназия №4"/>
             </a>
           </div>
-          <div class="input_fields">
+          <div class="input_info">
             <input name="login" type="text" id="login" placeholder="Логин">
             <input name="password" type="password" id="password" placeholder="Пароль">
-            <button class="button" name="button-input" type="button">Войти</button>
-            <div class="input_flex">
-              <a href="#">Забыли пароль?</a>
-              <a class="reg" href="registration.html">Регистрация</a>
+            <div>
+              <input name="radio" type="radio" value="1" id="student">
+              <label for="student">Ученик</label>
+              <input class="input_info_techer" name="radio" type="radio" value="2" id="teacher">
+              <label for="teacher">Учитель</label>
+            </div>
+            <button class="button input_button" name="button-input" type="button">Войти</button>
+            <div class="input_options">
+              <a class="input_options_password" href="#">Забыли пароль?</a>
+              <a class="input_options_registration" href="registration.html">Регистрация</a>
             </div>
           </div>
         </form>
