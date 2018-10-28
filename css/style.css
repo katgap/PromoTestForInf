@@ -44,11 +44,6 @@ a {
   width: 100%;
   cursor: pointer;
 }
-
-.input_button {
-  margin-top: 20px;
-}
-
 .registration_button {
   margin-bottom: 0;
 }
@@ -86,3 +81,17 @@ a {
 .login_teacher {
   width: 270px;
 }
+
+.input_type {
+  display: flex;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.input_type label {
+  margin-left: 10px;
+}
+
+/*.hidden {
+  display: none;
+}*/
