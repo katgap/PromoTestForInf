@@ -21,6 +21,10 @@ a {
   border-radius: 10px;
 }
 
+.registration_form {
+  margin-top: 55px;
+}
+
 .input_form p,
 .registration_form p {
   margin: 0;
